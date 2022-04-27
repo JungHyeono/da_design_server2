@@ -25,7 +25,7 @@ pip3 install -r requirements.txt
 * Append a python path to `~/.bashrc` file.
 
 ```sh
-~$cat >> ~/.bashrc
+~$ cat >> ~/.bashrc
 export PYTHONPATH=$PYTHONPATH:/home/username/
 Ctrl+d
 
