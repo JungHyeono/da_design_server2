@@ -13,11 +13,27 @@
 #### Requirements
 * requirements.txt 참고.
 #### How to install
+
+* Clone & Install
+
 ```sh
 git clone ...........
 cd da_design_server_학번
 pip3 install -r requirements.txt
 ```
+
+* Append a python path to `~/.bashrc` file.
+
+```sh
+~$cat >> ~/.bashrc
+export PYTHONPATH=$PYTHONPATH:/home/username/
+Ctrl+d
+
+~$ source ~/.bashrc
+```
+
+* Install MongoDB >= Version
+
 ---
 ### How to use
 TODO
